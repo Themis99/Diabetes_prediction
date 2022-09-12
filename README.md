@@ -37,6 +37,13 @@ The table below compares the performance of the different algorithms:
 | ADA Boost  |       0.14      |     0.03         |       0.18        |        0.37       |
 | XG Boost  |        0.14     |       0.03        |      0.18         |       0.40        |
 
+Of all the algorithms, XG boost has the best performance
+
+
+
+
+
+
 
 
 
