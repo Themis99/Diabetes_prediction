@@ -2,10 +2,10 @@
 In this project we use the diabetes dataset in which we try to predict disease progression one year after baseline. This is a regression problem in which we're trying to predict a value.
 
 ## Dataset
-The dataset is provided by the Sklearn library used to develop the prediction algorithms. The dataset consists of 11 columns where 10 are the predictive variables and the eleventh is the target which is essentially a quantitative measure of disease progression one year after baseline. More information about the dataset can be found [here](https://www4.stat.ncsu.edu/~boos/var.select/diabetes.html)
+The dataset is provided by the Sklearn library used to develop the prediction algorithms. The dataset consists of 11 columns where 10 are the predictive variables and the eleventh is the target which is essentially a quantitative measure of disease progression one year after baseline. More information about the dataset can be found [here](https://www4.stat.ncsu.edu/~boos/var.select/diabetes.html).
 
 ## Data preparation
-The first 300 samples are used training and the rest for testing. In addition, all values (including the target values) were normalized to the interval [0,1]
+The first 300 samples are used training and the rest for testing. In addition, all values (including the target values) were normalized to the interval [0,1].
 
 ## Training and testing
 Five algorithms were developed and compared in terms of their performance. These were:
@@ -37,4 +37,4 @@ The table below compares the performance of the different algorithms:
 | ADA Boost  |       0.14      |     0.03         |       0.18        |        0.37       |
 | XG Boost  |        0.14     |       0.03        |      0.18         |       0.40        |
 
-Of all the algorithms, XG boost has the best performance
+Of all the algorithms, XG boost has the best performance.
