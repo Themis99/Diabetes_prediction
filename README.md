@@ -25,5 +25,20 @@ All algorithms were evaluated using the same evaluation metrics:
 The evaluation method was performed by cross-validation with 10 folds. Each algorithm was fine-tuned to determine the optimal hyperparameters. Randomized Search algorithm was used for the search for the best hyperparameters. In contrast to the Grid Search algorithm, not all parameter values are tried out, but rather a fixed number of parameter settings is sampled from the specified distributions. Ten trials for every algorithm were performed.
 
 ## Results
-The table below compares the performance of the different algorithms
+The table below compares the performance of the different algorithms:
+
+| Algorithm     | MAE           | MSE           | RMSE          | R^2           |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| Support Vector Machines |     |               |               |               |
+| Desicion Trees  |             |               |               |               |
+| Random Forest   |             |               |               |               |
+| ADA Boost  |             |               |               |               |
+| XG Boost  |             |               |               |               |
+
+
+
+
+
+
+
 
