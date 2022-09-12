@@ -11,16 +11,17 @@ The first 300 samples are used training and the rest for testing. In addition, a
 Five algorithms were developed and compared in terms of their performance. These were:
 1) Support Vector Machines
 2) Desicion Trees
-3) Random Forest 
-4) ADA Boost
-5) XG Boost
+3) Random Forest
+4) Grandient Boost 
+5) ADA Boost
+6) XG Boost
 
 All algorithms were evaluated using the same evaluation metrics: 
 
 1) Mean Absolute Error (MAE)
 2) Mean Squared Error (MSE)
 3) Root Mean Squared Error (RMSE)
-4) R^2 Score
+4) R^2 Score (R^2)
 
 The evaluation method was performed by cross-validation with 10 folds. Each algorithm was fine-tuned to determine the optimal hyperparameters. Randomized Search algorithm was used for the search for the best hyperparameters. In contrast to the Grid Search algorithm, not all parameter values are tried out, but rather a fixed number of parameter settings is sampled from the specified distributions. Ten trials for every algorithm were performed.
 
@@ -29,11 +30,12 @@ The table below compares the performance of the different algorithms:
 
 | Algorithm     | MAE           | MSE           | RMSE          | R^2           |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Support Vector Machines |     |               |               |               |
-| Desicion Trees  |             |               |               |               |
-| Random Forest   |             |               |               |               |
-| ADA Boost  |             |               |               |               |
-| XG Boost  |             |               |               |               |
+| Support Vector Machines |  0.15   |    0.03           |    0.18           |      0.36         |
+| Desicion Trees  |     0.16        |      0.04         |       0.20        |       0.24        |
+| Random Forest   |    0.15         |        0.03       |         0.19      |       0.32        |
+| Grandient Boost   |    0.15         |        0.03       |         0.18      |       0.34        |
+| ADA Boost  |       0.14      |     0.03         |       0.18        |        0.37       |
+| XG Boost  |        0.14     |       0.03        |      0.18         |       0.40        |
 
 
 
